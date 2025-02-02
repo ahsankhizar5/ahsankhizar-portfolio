@@ -970,3 +970,35 @@ nav.navbar {
 .nav-link.navbar-link.active::after {
   animation: neonPulse 1.5s infinite;
 }
+
+
+/* Add to your existing navbar CSS */
+nav.navbar {
+  transition: transform 0.3s ease-in-out, background 0.3s ease;
+  transform: translateY(0);
+}
+
+nav.navbar.hidden {
+  transform: translateY(-100%);
+}
+
+/* Add slight delay for mobile menu */
+@media (max-width: 768px) {
+  nav.navbar {
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+/************ Scroll Hide Navbar ************/
+.navbar {
+  transition: transform 0.3s ease-in-out, background 0.3s ease;
+}
+
+.navbar.hidden {
+  transform: translateY(-100%);
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
