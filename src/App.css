@@ -616,3 +616,176 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+
+
+
+/* ========== Mobile Responsive Styles ========== */
+
+@media (max-width: 768px) {
+
+  /* Banner Section */
+  .banner {
+    padding: 150px 0 50px 0 !important;
+    text-align: center;
+  }
+
+  .banner h1 {
+    font-size: 36px !important;
+    line-height: 1.2 !important;
+  }
+
+  .banner .tagline {
+    font-size: 16px !important;
+  }
+
+  .banner p {
+    width: 100% !important;
+    font-size: 16px !important;
+  }
+
+    /* Contact Form Adjustments */ .contact form input,
+    .contact form textarea {
+      padding: 1rem !important;
+      font-size: 1rem !important;
+    }
+  
+    .contact form button {
+      width: 50%;
+      padding: 1rem !important;
+    }
+
+  /* Skills Section */
+  .skill-bx {
+    padding: 30px 20px !important;
+    margin-top: -30px !important;
+    border-radius: 30px !important;
+  }
+
+  .skill-slider {
+    width: 100% !important;
+  }
+
+  /* General Adjustments */
+  h2 {
+    font-size: 32px !important;
+  }
+
+  .project p,
+  .skill p {
+    width: 90% !important;
+  }
+}
+
+@media (max-width: 480px) {
+
+  /* Even smaller screens */
+  .banner {
+    padding: 120px 0 40px 0 !important;
+  }
+
+  .banner h1 {
+    font-size: 28px !important;
+  }
+
+  .newsletter-bx h3 {
+    font-size: 24px !important;
+  }
+}
+
+/* Mobile Fixes */
+@media (max-width: 768px) {
+
+  /* Newsletter Section */
+  .newsletter-bx {
+    padding: 1.5rem !important;
+    margin: -80px 15px 40px 15px !important;
+    border-radius: 25px !important;
+  }
+
+  .newsletter-bx h3 {
+    font-size: 1.4rem !important;
+    line-height: 1.4 !important;
+    margin-bottom: 1.2rem !important;
+  }
+
+  .new-email-bx {
+    flex-direction: column;
+    gap: 12px;
+    padding: 8px !important;
+  }
+
+  .new-email-bx input {
+    width: 100% !important;
+    padding: 12px 16px !important;
+    font-size: 14px !important;
+  }
+
+  .new-email-bx button {
+    width: 100% !important;
+    padding: 14px !important;
+    font-size: 15px !important;
+  }
+
+  /* Message Fix */
+  .contact form {
+    padding: 0 15px !important;
+  }
+
+  .contact form input,
+  .contact form textarea {
+    font-size: 14px !important;
+    padding: 12px 16px !important;
+    margin-bottom: 12px !important;
+  }
+
+  .contact form button {
+    padding: 14px !important;
+    font-size: 15px !important;
+  }
+
+  /* Footer Fix */
+  .footer p {
+    font-size: 0.8rem !important;
+    padding: 0 15px !important;
+    text-align: center;
+  }
+
+  /* Global Spacing Fix */
+  .banner {
+    padding: 150px 0 40px 0 !important;
+  }
+
+  .banner h1 {
+    font-size: 2rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .banner p {
+    font-size: 0.9rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+
+  /* Ultra-Mobile Optimization */
+  .newsletter-bx {
+    margin: -60px 10px 30px 10px !important;
+    padding: 1rem !important;
+  }
+
+  .new-email-bx button {
+    font-size: 14px !important;
+  }
+
+  .footer p {
+    font-size: 0.7rem !important;
+  }
+
+  .banner {
+    padding: 120px 0 30px 0 !important;
+  }
+
+  .banner h1 {
+    font-size: 1.75rem !important;
+  }
+}
