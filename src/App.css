@@ -1002,3 +1002,11 @@ nav.navbar.hidden {
     transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
+
+.project-card {
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px) rotateZ(1deg);
+}
