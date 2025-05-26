@@ -22,45 +22,6 @@ A personal portfolio showcasing my work as a Web Developer and SEO Specialist. I
 
 ## Getting Started
 
-To run the project locally:
-
-```bash
-git clone https://github.com/ahsankhizar5/ahsankhizar-portfolio.git
-cd ahsankhizar-portfolio
-npm install
-npm start
-```
-
-Visit `http://localhost:3000` to view the site.
-
-## Project Structure
-
-```
-portfolio/
-├── public/
-│   └── index.html
-├── src/
-│   ├── components/
-│   ├── assets/
-│   ├── App.js
-│   └── index.js
-├── .env
-├── package.json
-└── README.md
-```
-
-## Contact
-
-Feel free to reach out via:
-
-* **Email:** [ahsankhizar135@gmail.com](mailto:ahsankhizar135@gmail.com)
-* **Portfolio:** [https://ahsankhizar.vercel.app](https://ahsankhizar.vercel.app)
-
----
-
-This format aligns with widely accepted standards for README files, ensuring it's both informative and accessible to developers and potential clients alike.
-
-
 2. **Navigate to the directory**
 
    ```bash
@@ -94,16 +55,6 @@ This portfolio serves to:
 * Allow potential **clients** or **employers** to easily get in touch
 
 ---
-
-## ✨ Features
-
-* ✅ **Responsive Design** – Works smoothly on all screen sizes
-* 📁 **Project Gallery** – Live previews, descriptions, and code links
-* 🧠 **Skills Overview** – Technologies & tools I specialize in
-* 📬 **Contact Form** – Integrated with EmailJS for instant messaging
-
----
-
 ## 📁 Project Structure
 
 ```bash
